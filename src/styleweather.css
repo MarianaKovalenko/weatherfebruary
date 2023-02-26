@@ -1,0 +1,111 @@
+body {
+  background-color: #cce2f3;
+}
+h1 {
+  color: #be5133;
+}
+input {
+  width: 160px;
+}
+.justify-content-center {
+  margin: 10px auto;
+}
+.container-search {
+  display: block;
+  margin: 0;
+  width: 360px;
+  padding: 0;
+}
+.btn-primary {
+  background-color: #cce2f3;
+  border-color: #5aaaff;
+  color: #5aaaff;
+  border-radius: 30px;
+}
+.container {
+  width: 360px;
+  height: 560px;
+  border: 1px solid black;
+  justify-content: center;
+  justify-items: center;
+  border-radius: 5px;
+  box-shadow: black 3px 3px 10px;
+  background-image: url(src/kyivimg.jpg);
+  background-size: 360px 560px;
+}
+.row {
+  width: 350px;
+}
+.row #first-day {
+  margin: 0;
+}
+.column {
+  display: block;
+  text-align: justify;
+  width: 160px;
+  border: 1px solid black;
+  margin: 5px auto;
+}
+.left {
+  color: #be5133;
+}
+.name-weather {
+  height: 44px;
+}
+.c {
+  text-decoration: none;
+}
+.c:focus {
+  color: black;
+  font-size: x-large;
+}
+.f {
+  text-decoration: none;
+}
+.f:focus {
+  color: black;
+  font-size: x-large;
+}
+.col-2 {
+  border: 1px solid #5aaaff;
+  padding: 0;
+  margin: 120px auto 0;
+  text-align: center;
+  width: 52px;
+  color: #5aaaff;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+.temp {
+  font-size: xx-small;
+}
+.end {
+  width: 200px;
+  padding: 0;
+  border: 1px solid black;
+  font-size: 12px;
+  display: block;
+  margin: 7px auto;
+  text-align: center;
+  color: white;
+}
+#icon {
+  border-radius: 30% 0 30% 0;
+  background-color: rgb(255, 255, 255, 0.4);
+}
+#warning {
+  color: #ee404c;
+  display: flex;
+  margin: 68px 0 auto;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0, 0.4);
+  border-radius: 5px;
+  position: fixed;
+  width: 330px;
+}
+#warning #icon {
+  display: inline;
+  background-color: transparent;
+}
